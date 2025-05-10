@@ -8,7 +8,15 @@ SELECT
     customer_id AS CustomerId,
     signup_date AS CreationDate,
     region,
-    gender
+    CASE 
+        WHEN 
+            UPPER(gender) = 'MALE' THEN 'Male'
+        WHEN 
+             UPPER(gender) = 'FEMALE'THEN 'Female'
+        ELSE 
+            'Other'
+        END
+    AS Gender
 FROM 
     public.customers
 ) 

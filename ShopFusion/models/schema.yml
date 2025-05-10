@@ -1,0 +1,36 @@
+
+version: 2
+
+models:
+  - name: stg_Customer
+    description: "Stage model for the customers table"
+    columns:
+      - name: CustomerId
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+      - name: CreationDate
+        description: "The Date in which the customer was created"
+      - name: region
+        description: "The Region of the where customer is located"
+        data_tests:
+          - not_null
+      - name: Gender
+        description: "Gender of the customer"
+        data_tests:
+          - accepted_values:
+              values: ['Male', 'Female', 'Other']
+
+  - name: stg_Status
+    description: "Stage model for the status table"
+    columns:
+      - name: StatusId
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+      - name: StatusName
+        description: "The name of the status "
+        data_tests:
+          - not_null
