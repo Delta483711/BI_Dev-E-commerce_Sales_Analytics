@@ -31,6 +31,27 @@ models:
           - unique
           - not_null
       - name: StatusName
-        description: "The name of the status "
+        description: "The name of the status"
+        data_tests:
+          - not_null
+
+  - name: stg_Orders
+    description: "Stage model for the orders table"
+    columns:
+      - name: OrderId
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+      - name: CustomerId
+        description: "The forigen key for customer table"
+        data_tests:
+          - not_null
+      - name: OrderCreationDate
+        description: "The date in which the order was Created"
+        data_tests:
+          - not_null
+      - name: StatusId
+        description: "The forigen key for Status table"
         data_tests:
           - not_null
