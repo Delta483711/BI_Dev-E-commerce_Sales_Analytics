@@ -1,0 +1,147 @@
+[0m13:05:57.492036 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B05F55E270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B05D4A2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B05FDF5A90>]}
+
+
+============================== 13:05:57.505560 | 67c24ced-a327-4858-b2a8-e032d958f704 ==============================
+[0m13:05:57.505560 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:05:57.506326 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'version_check': 'True', 'debug': 'False', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt init ShopFusion', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:05:57.520260 [debug] [MainThread]: Starter project path: C:\Users\Micha\Documents\dbt_env\Lib\site-packages\dbt\include\starter_project
+[0m13:05:57.532415 [info ] [MainThread]: 
+Your new dbt project "ShopFusion" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m13:05:57.533272 [info ] [MainThread]: Setting up your profile.
+[0m13:08:48.677966 [info ] [MainThread]: Profile ShopFusion written to C:\Users\Micha\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m13:08:48.679365 [debug] [MainThread]: Command `dbt init` succeeded at 13:08:48.679173 after 171.41 seconds
+[0m13:08:48.679744 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B06135EB10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B0613AF1D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B061113570>]}
+[0m13:08:48.680152 [debug] [MainThread]: Flushing usage events
+[0m13:08:49.150207 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:08:58.297880 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025983052270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259820A2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000259838F1A90>]}
+
+
+============================== 13:08:58.301137 | 942f0af6-511d-47e4-b132-875115b58116 ==============================
+[0m13:08:58.301137 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:08:58.301927 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m13:08:58.327841 [info ] [MainThread]: dbt version: 1.9.4
+[0m13:08:58.328569 [info ] [MainThread]: python version: 3.13.3
+[0m13:08:58.329148 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m13:08:58.329697 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m13:08:58.378994 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m13:08:58.379675 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m13:08:58.380250 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m13:08:58.380890 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:08:58.382237 [debug] [MainThread]: Command `dbt debug` failed at 13:08:58.382042 after 0.30 seconds
+[0m13:08:58.382601 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025983F70050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025983F51010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025983F74270>]}
+[0m13:08:58.382885 [debug] [MainThread]: Flushing usage events
+[0m13:08:58.844958 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:23:50.674308 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017957A56270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017954982850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000179592F5A90>]}
+
+
+============================== 13:23:50.677551 | 7da7114e-eee9-4311-af13-3105469d79af ==============================
+[0m13:23:50.677551 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:23:50.678308 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'fail_fast': 'False', 'warn_error': 'None', 'log_path': 'logs', 'version_check': 'True', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'introspect': 'True', 'static_parser': 'True', 'log_format': 'default', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m13:23:50.689454 [info ] [MainThread]: dbt version: 1.9.4
+[0m13:23:50.690075 [info ] [MainThread]: python version: 3.13.3
+[0m13:23:50.690674 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m13:23:50.691229 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m13:23:50.745916 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m13:23:50.746464 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m13:23:50.746937 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m13:23:50.747420 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:23:50.748192 [debug] [MainThread]: Command `dbt debug` failed at 13:23:50.748084 after 0.23 seconds
+[0m13:23:50.748486 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017959974050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001795994D010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000017959970270>]}
+[0m13:23:50.748832 [debug] [MainThread]: Flushing usage events
+[0m13:23:51.192117 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:24:44.535133 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D25DAE270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D22D82850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D26645A90>]}
+
+
+============================== 13:24:44.538453 | 6af8c2be-6a13-4dfc-b6e0-afc59e251057 ==============================
+[0m13:24:44.538453 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:24:44.539162 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'debug': 'False', 'log_path': 'logs', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt debug', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:24:44.549104 [info ] [MainThread]: dbt version: 1.9.4
+[0m13:24:44.549761 [info ] [MainThread]: python version: 3.13.3
+[0m13:24:44.550290 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m13:24:44.550827 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m13:24:44.601946 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m13:24:44.602633 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m13:24:44.603207 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m13:24:44.603738 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m13:24:44.604543 [debug] [MainThread]: Command `dbt debug` failed at 13:24:44.604445 after 0.18 seconds
+[0m13:24:44.604811 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D26CE0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D26CBD010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000025D26CE4270>]}
+[0m13:24:44.605076 [debug] [MainThread]: Flushing usage events
+[0m13:24:45.089909 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m13:26:05.036818 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844AA86270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000028447A62850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844C3F5A90>]}
+
+
+============================== 13:26:05.040091 | 43d862f3-5d8e-4333-894d-90946ec139db ==============================
+[0m13:26:05.040091 [info ] [MainThread]: Running with dbt=1.9.4
+[0m13:26:05.040819 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'static_parser': 'True', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m13:26:05.051865 [info ] [MainThread]: dbt version: 1.9.4
+[0m13:26:05.052556 [info ] [MainThread]: python version: 3.13.3
+[0m13:26:05.053170 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m13:26:05.053672 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m13:26:05.104050 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m13:26:05.104753 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m13:26:05.105164 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m13:26:05.113168 [info ] [MainThread]: adapter type: postgres
+[0m13:26:05.113710 [info ] [MainThread]: adapter version: 1.9.0
+[0m13:26:05.114588 [info ] [MainThread]: Configuration:
+[0m13:26:05.115149 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m13:26:05.115709 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m13:26:05.116235 [info ] [MainThread]: Required dependencies:
+[0m13:26:05.116716 [debug] [MainThread]: Executing "git --help"
+[0m13:26:05.129552 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m13:26:05.130226 [info ] [MainThread]: Connection:
+[0m13:26:05.130823 [info ] [MainThread]:   host: ep-quiet-forest-absqal98-pooler.eu-west-2.aws.neon.tech
+[0m13:26:05.131261 [info ] [MainThread]:   port: 5432
+[0m13:26:05.131748 [info ] [MainThread]:   user: TechLink_owner
+[0m13:26:05.132269 [info ] [MainThread]:   database: TechLink
+[0m13:26:05.132616 [info ] [MainThread]:   schema: public
+[0m13:26:05.133134 [info ] [MainThread]:   connect_timeout: 10
+[0m13:26:05.133652 [info ] [MainThread]:   role: None
+[0m13:26:05.134325 [info ] [MainThread]:   search_path: None
+[0m13:26:05.135078 [info ] [MainThread]:   keepalives_idle: 0
+[0m13:26:05.135579 [info ] [MainThread]:   sslmode: None
+[0m13:26:05.136286 [info ] [MainThread]:   sslcert: None
+[0m13:26:05.136769 [info ] [MainThread]:   sslkey: None
+[0m13:26:05.137241 [info ] [MainThread]:   sslrootcert: None
+[0m13:26:05.137719 [info ] [MainThread]:   application_name: dbt
+[0m13:26:05.138087 [info ] [MainThread]:   retries: 1
+[0m13:26:05.138597 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m13:26:05.308479 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m13:26:07.467309 [debug] [MainThread]: Using postgres connection "debug"
+[0m13:26:07.467656 [debug] [MainThread]: On debug: select 1 as id
+[0m13:26:07.467900 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m13:26:07.743261 [debug] [MainThread]: SQL status: SELECT 1 in 0.275 seconds
+[0m13:26:07.744681 [debug] [MainThread]: On debug: Close
+[0m13:26:07.745464 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m13:26:07.746147 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m13:26:07.746676 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml> not found
+
+[0m13:26:07.747183 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m13:26:07.748065 [debug] [MainThread]: Command `dbt debug` failed at 13:26:07.747947 after 2.82 seconds
+[0m13:26:07.748371 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m13:26:07.748663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844CD2D6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844CA532F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844C927CE0>]}
+[0m13:26:07.749000 [debug] [MainThread]: Flushing usage events
+[0m13:26:08.218816 [debug] [MainThread]: An error was encountered while trying to flush usage events
