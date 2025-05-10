@@ -145,3 +145,149 @@ Internal Error
 [0m13:26:07.748663 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844CD2D6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844CA532F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002844C927CE0>]}
 [0m13:26:07.749000 [debug] [MainThread]: Flushing usage events
 [0m13:26:08.218816 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:11:37.850204 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1B256270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1A2A2850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1BAF5A90>]}
+
+
+============================== 14:11:37.853554 | 19d03d7c-3abc-42e8-a433-a51498917691 ==============================
+[0m14:11:37.853554 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:11:37.854259 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'invocation_command': 'dbt test', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:11:37.854640 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:11:37.855448 [debug] [MainThread]: Command `dbt test` failed at 14:11:37.855356 after 0.23 seconds
+[0m14:11:37.855707 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1BED6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1BE479B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014E1BE13BD0>]}
+[0m14:11:37.855957 [debug] [MainThread]: Flushing usage events
+[0m14:11:38.314393 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:11:44.462838 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C283A56270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C280A02850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2852F5A90>]}
+
+
+============================== 14:11:44.466359 | bbc24259-8472-4f74-961d-2197030c66e2 ==============================
+[0m14:11:44.466359 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:11:44.467175 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'False', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'invocation_command': 'dbt run', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m14:11:44.467600 [error] [MainThread]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m14:11:44.468514 [debug] [MainThread]: Command `dbt run` failed at 14:11:44.468409 after 0.13 seconds
+[0m14:11:44.468823 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C2856D6FD0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C28563B9B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001C285613BD0>]}
+[0m14:11:44.469117 [debug] [MainThread]: Flushing usage events
+[0m14:11:44.912193 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:11:56.665268 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF55A7E270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF52A52850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF573F5A90>]}
+
+
+============================== 14:11:56.668424 | bc6d5e22-bc21-4610-a403-ae866b1c7b84 ==============================
+[0m14:11:56.668424 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:11:56.669191 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'warn_error': 'None', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m14:11:56.679075 [info ] [MainThread]: dbt version: 1.9.4
+[0m14:11:56.679659 [info ] [MainThread]: python version: 3.13.3
+[0m14:11:56.680177 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m14:11:56.680632 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m14:11:56.732756 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m14:11:56.733492 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m14:11:56.733962 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m14:11:56.734758 [info ] [MainThread]: adapter type: postgres
+[0m14:11:56.735185 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:11:56.735703 [info ] [MainThread]: Configuration:
+[0m14:11:56.736089 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:11:56.736523 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:11:56.736919 [info ] [MainThread]: Required dependencies:
+[0m14:11:56.737261 [debug] [MainThread]: Executing "git --help"
+[0m14:11:56.740253 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:11:56.740676 [info ] [MainThread]: Connection:
+[0m14:11:56.741156 [info ] [MainThread]:   host: ep-quiet-forest-absqal98-pooler.eu-west-2.aws.neon.tech
+[0m14:11:56.741615 [info ] [MainThread]:   port: 5432
+[0m14:11:56.742138 [info ] [MainThread]:   user: TechLink_owner
+[0m14:11:56.742638 [info ] [MainThread]:   database: TechLink
+[0m14:11:56.743109 [info ] [MainThread]:   schema: public
+[0m14:11:56.743458 [info ] [MainThread]:   connect_timeout: 10
+[0m14:11:56.743873 [info ] [MainThread]:   role: None
+[0m14:11:56.744333 [info ] [MainThread]:   search_path: None
+[0m14:11:56.744706 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:11:56.745050 [info ] [MainThread]:   sslmode: None
+[0m14:11:56.745431 [info ] [MainThread]:   sslcert: None
+[0m14:11:56.745857 [info ] [MainThread]:   sslkey: None
+[0m14:11:56.746361 [info ] [MainThread]:   sslrootcert: None
+[0m14:11:56.746788 [info ] [MainThread]:   application_name: dbt
+[0m14:11:56.747222 [info ] [MainThread]:   retries: 1
+[0m14:11:56.748198 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:11:56.910036 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:11:56.950926 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:11:56.951253 [debug] [MainThread]: On debug: select 1 as id
+[0m14:11:56.951467 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:11:57.256692 [debug] [MainThread]: SQL status: SELECT 1 in 0.305 seconds
+[0m14:11:57.259243 [debug] [MainThread]: On debug: Close
+[0m14:11:57.260499 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:11:57.262018 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:11:57.263144 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml> not found
+
+[0m14:11:57.264057 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:11:57.265431 [debug] [MainThread]: Command `dbt debug` failed at 14:11:57.265247 after 0.71 seconds
+[0m14:11:57.265870 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:11:57.266303 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF57D2D6E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF57A532F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002AF57927CE0>]}
+[0m14:11:57.266783 [debug] [MainThread]: Flushing usage events
+[0m14:11:57.704876 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m14:12:23.197554 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A3E52270>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A0D7A850>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A46F5A90>]}
+
+
+============================== 14:12:23.200948 | 1319d9da-5e1e-4e90-99e1-da97ba89a85b ==============================
+[0m14:12:23.200948 [info ] [MainThread]: Running with dbt=1.9.4
+[0m14:12:23.201712 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Micha\\.dbt', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'log_format': 'default', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'target_path': 'None', 'introspect': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m14:12:23.212693 [info ] [MainThread]: dbt version: 1.9.4
+[0m14:12:23.213265 [info ] [MainThread]: python version: 3.13.3
+[0m14:12:23.213804 [info ] [MainThread]: python path: C:\Users\Micha\Documents\dbt_env\Scripts\python.exe
+[0m14:12:23.214562 [info ] [MainThread]: os info: Windows-11-10.0.26100-SP0
+[0m14:12:23.264152 [info ] [MainThread]: Using profiles dir at C:\Users\Micha\.dbt
+[0m14:12:23.264954 [info ] [MainThread]: Using profiles.yml file at C:\Users\Micha\.dbt\profiles.yml
+[0m14:12:23.265469 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml
+[0m14:12:23.266507 [info ] [MainThread]: adapter type: postgres
+[0m14:12:23.267046 [info ] [MainThread]: adapter version: 1.9.0
+[0m14:12:23.267592 [info ] [MainThread]: Configuration:
+[0m14:12:23.268019 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m14:12:23.268417 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m14:12:23.268863 [info ] [MainThread]: Required dependencies:
+[0m14:12:23.269221 [debug] [MainThread]: Executing "git --help"
+[0m14:12:23.272590 [info ] [MainThread]:  - git [[31mERROR[0m]
+
+[0m14:12:23.272995 [info ] [MainThread]: Connection:
+[0m14:12:23.273435 [info ] [MainThread]:   host: ep-quiet-forest-absqal98-pooler.eu-west-2.aws.neon.tech
+[0m14:12:23.273924 [info ] [MainThread]:   port: 5432
+[0m14:12:23.274391 [info ] [MainThread]:   user: TechLink_owner
+[0m14:12:23.274898 [info ] [MainThread]:   database: TechLink
+[0m14:12:23.275324 [info ] [MainThread]:   schema: public
+[0m14:12:23.275637 [info ] [MainThread]:   connect_timeout: 10
+[0m14:12:23.275915 [info ] [MainThread]:   role: None
+[0m14:12:23.276176 [info ] [MainThread]:   search_path: None
+[0m14:12:23.276432 [info ] [MainThread]:   keepalives_idle: 0
+[0m14:12:23.276675 [info ] [MainThread]:   sslmode: None
+[0m14:12:23.277122 [info ] [MainThread]:   sslcert: None
+[0m14:12:23.277535 [info ] [MainThread]:   sslkey: None
+[0m14:12:23.277904 [info ] [MainThread]:   sslrootcert: None
+[0m14:12:23.278334 [info ] [MainThread]:   application_name: dbt
+[0m14:12:23.278758 [info ] [MainThread]:   retries: 1
+[0m14:12:23.279512 [info ] [MainThread]: Registered adapter: postgres=1.9.0
+[0m14:12:23.444372 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m14:12:23.487201 [debug] [MainThread]: Using postgres connection "debug"
+[0m14:12:23.487569 [debug] [MainThread]: On debug: select 1 as id
+[0m14:12:23.487830 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m14:12:23.671259 [debug] [MainThread]: SQL status: SELECT 1 in 0.183 seconds
+[0m14:12:23.673770 [debug] [MainThread]: On debug: Close
+[0m14:12:23.675258 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m14:12:23.676593 [info ] [MainThread]: [31m2 checks failed:[0m
+[0m14:12:23.677548 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\Micha\Documents\BI_Dev-E-commerce_Sales_Analytics\dbt_project.yml> not found
+
+[0m14:12:23.678467 [info ] [MainThread]: Error from git --help: Could not find command, ensure it is in the user's PATH and that the user has permissions to run it: "git"
+
+[0m14:12:23.679585 [debug] [MainThread]: Command `dbt debug` failed at 14:12:23.679458 after 0.58 seconds
+[0m14:12:23.679882 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m14:12:23.680179 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A60316E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A4D532F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000268A4C27CE0>]}
+[0m14:12:23.680588 [debug] [MainThread]: Flushing usage events
+[0m14:12:24.138549 [debug] [MainThread]: An error was encountered while trying to flush usage events
