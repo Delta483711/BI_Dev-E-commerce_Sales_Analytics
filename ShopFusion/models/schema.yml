@@ -7,18 +7,18 @@ models:
     columns:
       - name: CustomerId
         description: "The primary key for this table"
-        data_tests:
+        tests:
           - unique
           - not_null
       - name: CreationDate
         description: "The Date in which the customer was created"
       - name: region
         description: "The Region of the where customer is located"
-        data_tests:
+        tests:
           - not_null
       - name: Gender
         description: "Gender of the customer"
-        data_tests:
+        tests:
           - accepted_values:
               values: ['Male', 'Female', 'Other']
 
@@ -27,12 +27,12 @@ models:
     columns:
       - name: StatusId
         description: "The primary key for this table"
-        data_tests:
+        tests:
           - unique
           - not_null
       - name: StatusName
         description: "The name of the status"
-        data_tests:
+        tests:
           - not_null
 
   - name: stg_Orders
@@ -40,41 +40,76 @@ models:
     columns:
       - name: OrderId
         description: "The primary key for this table"
-        data_tests:
+        tests:
           - unique
           - not_null
       - name: CustomerId
-        description: "The forigen key for customer table"
-        data_tests:
+        description: "The foreign key for customer table"
+        tests:
           - not_null
       - name: OrderCreationDate
         description: "The date in which the order was Created"
-        data_tests:
+        tests:
           - not_null
       - name: StatusId
-        description: "The forigen key for Status table"
-        data_tests:
+        description: "The foreign key for Status table"
+        tests:
           - not_null
 
   - name: stg_Products
-    description: "Stage model for the Products table"
+    description: "Stage model for the products table"
     columns:
       - name: ProductId
         description: "The primary key for this table"
-        data_tests:
+        tests:
           - unique
           - not_null
       - name: ProductName
         description: "Name of the product"
-        data_tests:
+        tests:
           - not_null
       - name: CategoryId
-        description: "The forigen key for Catagory table"
+        description: "The foreign key for category table"
+        tests:
+          - not_null
       - name: BrandId
-        description: "The forigen key for Brand table"
+        description: "The foreign key for brand table"
+        tests:
+          - not_null
       - name: price
-        description: "The price of the prodcut"
+        description: "The price of the product"
+        tests:
+          - not_null
       - name: ProductCreationDate
-        description: "The date in which the Product was Created"
-        data_tests:
+        description: "The date in which the product was created"
+        tests:
+          - not_null
+
+  - name: stg_WebTraffic
+    description: "Stage model for the Web traffic table"
+    columns:
+      - name: VisitId
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: VisitTimestamp
+        description: "The timestamp of the visit"
+        tests:
+          - not_null
+      - name: Page
+        description: "the page that was visited"
+        tests:
+          - not_null
+      - name: SessionId
+        description: "The session id of the visit"
+        tests:
+          - not_null
+      - name: CustomerId
+        description: "The foreign key for customer table"
+        tests:
+          - not_null
+      - name: ReferralSource
+        description: "The source from which the customer was referred"
+        tests:
           - not_null
