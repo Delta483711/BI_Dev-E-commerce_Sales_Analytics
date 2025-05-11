@@ -1,0 +1,12 @@
+ShopFusion:
+  outputs:
+    dev:
+      dbname: TechLink
+      host: ep-quiet-forest-absqal98-pooler.eu-west-2.aws.neon.tech
+      pass: npg_ti4dfBnEU5Yo
+      port: 5432
+      schema: public
+      threads: 1
+      type: postgres
+      user: TechLink_owner
+  target: dev
