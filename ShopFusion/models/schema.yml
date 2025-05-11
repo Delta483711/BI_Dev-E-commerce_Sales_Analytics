@@ -55,3 +55,26 @@ models:
         description: "The forigen key for Status table"
         data_tests:
           - not_null
+
+  - name: stg_Products
+    description: "Stage model for the Products table"
+    columns:
+      - name: ProductId
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+      - name: ProductName
+        description: "Name of the product"
+        data_tests:
+          - not_null
+      - name: CategoryId
+        description: "The forigen key for Catagory table"
+      - name: BrandId
+        description: "The forigen key for Brand table"
+      - name: price
+        description: "The price of the prodcut"
+      - name: ProductCreationDate
+        description: "The date in which the Product was Created"
+        data_tests:
+          - not_null
