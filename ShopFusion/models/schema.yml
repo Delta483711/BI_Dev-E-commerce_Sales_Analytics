@@ -113,3 +113,16 @@ models:
         description: "The source from which the customer was referred"
         tests:
           - not_null
+
+  - name: stg_Brand
+    description: "Stage model for the brand table"
+    columns:
+      - name: BrandId
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: BrandName
+        description: "The name of the brand"
+        tests:
+          - not_null
