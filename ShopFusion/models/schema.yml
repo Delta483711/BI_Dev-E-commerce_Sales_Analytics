@@ -114,27 +114,15 @@ models:
         tests:
           - not_null
 
-  - name: stg_Order_Items
-    description: "Stage model for the order item table"
+  - name: stg_Brand
+    description: "Stage model for the brand table"
     columns:
-      - name: OrderItemId
+      - name: BrandId
         description: "The primary key for this table"
         tests:
           - unique
           - not_null
-      - name: OrderId
-        description: "The foreign key for order table"
-        tests:
-          - not_null
-      - name: ProductId
-        description: "the foreign key for product table"
-        tests:
-          - not_null
-      - name: Quantity
-        description: "the quantity of the product"
-        tests:
-          - not_null
-      - name: Price
-        description: "the price of the product"
+      - name: BrandName
+        description: "The name of the brand"
         tests:
           - not_null
