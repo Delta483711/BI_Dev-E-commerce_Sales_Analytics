@@ -4,7 +4,7 @@ WITH Category AS
 (
 SELECT
     category_id as CategoryId,
-    name as categoryName
+    name as CategoryName
 FROM
     category 
 )

@@ -9,7 +9,7 @@ SELECT
     price,
     created_at as ProductCreationDate
 FROM 
-    public.products
+    products
 )
 
 SELECT * FROM Products
