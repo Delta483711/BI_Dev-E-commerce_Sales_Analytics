@@ -126,3 +126,16 @@ models:
         description: "The name of the brand"
         tests:
           - not_null
+    
+  - name: stg_Category
+    description: "Stage model for the Category table"
+    columns:
+      - name: CategoryId
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: CategoryName
+        description: "The name of the Category"
+        tests:
+          - not_null
