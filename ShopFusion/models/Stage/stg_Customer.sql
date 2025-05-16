@@ -9,7 +9,7 @@ SELECT
     name AS CustomerName,
     reference AS CustomerReference,
     signup_date AS CreationDate,
-    region,
+    Region,
     CASE 
         WHEN 
             UPPER(gender) = 'MALE' THEN 'Male'
