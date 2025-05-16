@@ -6,6 +6,8 @@ WITH Customer AS
 
 SELECT
     customer_id AS CustomerId,
+    name AS CustomerName,
+    reference AS CustomerReference,
     signup_date AS CreationDate,
     region,
     CASE 

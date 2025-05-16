@@ -10,6 +10,11 @@ models:
         tests:
           - unique
           - not_null
+      - name: CustomerName
+        description: "The name of the customer"
+      - name: CustomerReference
+        description: "The ref of the customer"
+      - name: region        
       - name: CreationDate
         description: "The Date in which the customer was created"
       - name: region
