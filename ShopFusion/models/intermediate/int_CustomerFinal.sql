@@ -1,5 +1,6 @@
 -- Create table for customer final --
 
+
 SELECT
     C.CustomerId,
     C.CustomerName,
