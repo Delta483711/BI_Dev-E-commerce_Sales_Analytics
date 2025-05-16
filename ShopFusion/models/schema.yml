@@ -139,3 +139,32 @@ models:
         description: "The name of the Category"
         tests:
           - not_null
+
+  - name: Int_ProductFinal
+    description: "the final version of the product table"
+    columns:
+      - name: ProductId
+        description: "The primary key for this table"
+        tests:
+          - unique
+          - not_null
+      - name: ProductName
+        description: "The name of the product"
+        tests:
+          - not_null
+      - name: BrandId
+        description: "The primary key  of the brand"
+        tests:
+          - not_null
+      - name: BrandName
+        description: "The name  of the brand"
+        tests:
+          - not_null
+      - name: CategoryId
+        description: "The primary key  of the Category"
+        tests:
+          - not_null
+      - name: CategoryName
+        description: "The name  of the Category"
+        tests:
+          - not_null
